@@ -15,7 +15,7 @@ window.WEDDING_CONFIG = {
   weddingDateText: "20 ธันวาคม 2569",
   weddingMessage: "ขอเชิญร่วมเป็นส่วนหนึ่งในวันสำคัญของเรา",
 
-  heroImage: "assets/images/hero.svg",
+  heroImage: "assets/images/hero.jpg",
 
   groom: {
     name: "ประวิทย์ แสนเริง",
@@ -23,7 +23,7 @@ window.WEDDING_CONFIG = {
     birthday: "31 ตุลาคม 2543",
     hobby: "ล้างรถ",
     special: "เป็นคนรักความสะอาด เห็นรถไม่ได้ต้องล้างทันที 🚗✨",
-    image: "assets/images/groom.svg",
+    image: "assets/images/groom.jpg",
   },
 
   bride: {
@@ -32,7 +32,7 @@ window.WEDDING_CONFIG = {
     birthday: "25 พฤษภาคม 2544",
     hobby: "เลี้ยงหลาน",
     special: "ผู้เชี่ยวชาญด้านการเลี้ยงหลาน และมีรอยยิ้มที่ทำให้คนรอบข้างใจฟู ❤️",
-    image: "assets/images/bride.svg",
+    image: "assets/images/bride.jpg",
   },
 
   schedule: [
