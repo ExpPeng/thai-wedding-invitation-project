@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750" role="img" aria-label="ภาพบรรยากาศที่ 07">
+  <rect width="1000" height="750" fill="#f7f0e8"/>
+  <circle cx="607" cy="299" r="191" fill="#d9c3a5" opacity="0.55"/>
+  <circle cx="821" cy="443" r="97" fill="#c8a664" opacity="0.30"/>
+  <g transform="translate(500 600) scale(1.35)" >
+  <g fill="#4a3f35" opacity="0.9">
+    <circle cx="-46" cy="-104" r="30"/>
+    <path d="M-46 -70 C -92 -70 -104 -22 -104 40 L 12 40 C 12 -22 0 -70 -46 -70 Z"/>
+  </g>
+  <g fill="#c8a664" opacity="0.95">
+    <circle cx="46" cy="-96" r="29"/>
+    <path d="M46 -64 C 8 -64 -6 -14 -6 40 L 104 40 C 104 -14 88 -64 46 -64 Z"/>
+    <path d="M18 -108 C 24 -134 68 -134 74 -108 C 60 -120 32 -120 18 -108 Z" opacity="0.8"/>
+  </g>
+</g>
+  <g transform="translate(70 110) rotate(-18) scale(1.1)" opacity="0.55"><path d="M0 0 C 18 -14 42 -12 56 2 C 40 18 14 16 0 0 Z" fill="none" stroke="#c8a664" stroke-width="1.6"/><path d="M0 0 L 56 2" stroke="#c8a664" stroke-width="1"/></g><g transform="translate(880 130) rotate(198) scale(1.1)" opacity="0.55"><path d="M0 0 C 18 -14 42 -12 56 2 C 40 18 14 16 0 0 Z" fill="none" stroke="#c8a664" stroke-width="1.6"/><path d="M0 0 L 56 2" stroke="#c8a664" stroke-width="1"/></g>
+  
+  <rect x="14" y="14" width="972" height="722" rx="18" fill="none" stroke="#c8a664" stroke-width="1.2" opacity="0.5"/>
+</svg>

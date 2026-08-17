@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" width="900" height="1125" role="img" aria-label="ท๊อป">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fffdf8"/><stop offset="1" stop-color="#f2e8d8"/></linearGradient></defs>
+  <rect width="900" height="1125" fill="url(#g)"/>
+  
+  <rect x="14" y="14" width="872" height="1097" rx="18" fill="none" stroke="#c8a664" stroke-width="1.2" opacity="0.5"/>
+  <circle cx="450" cy="520" r="300" fill="#ffffff" opacity="0.65"/>
+  <g transform="translate(450 640) scale(1.7)" >
+  <g fill="#4a3f35" opacity="0.9">
+    <circle cx="-46" cy="-104" r="30"/>
+    <path d="M-46 -70 C -92 -70 -104 -22 -104 40 L 12 40 C 12 -22 0 -70 -46 -70 Z"/>
+  </g>
+  <g fill="#c8a664" opacity="0.95">
+    <circle cx="46" cy="-96" r="29"/>
+    <path d="M46 -64 C 8 -64 -6 -14 -6 40 L 104 40 C 104 -14 88 -64 46 -64 Z"/>
+    <path d="M18 -108 C 24 -134 68 -134 74 -108 C 60 -120 32 -120 18 -108 Z" opacity="0.8"/>
+  </g>
+</g>
+  <g transform="translate(90 180) rotate(-25) scale(1.2)" opacity="0.55"><path d="M0 0 C 18 -14 42 -12 56 2 C 40 18 14 16 0 0 Z" fill="none" stroke="#c8a664" stroke-width="1.6"/><path d="M0 0 L 56 2" stroke="#c8a664" stroke-width="1"/></g><g transform="translate(750 200) rotate(200) scale(1.2)" opacity="0.55"><path d="M0 0 C 18 -14 42 -12 56 2 C 40 18 14 16 0 0 Z" fill="none" stroke="#c8a664" stroke-width="1.6"/><path d="M0 0 L 56 2" stroke="#c8a664" stroke-width="1"/></g>
+  <g transform="translate(120 945) rotate(25) scale(1.1)" opacity="0.55"><path d="M0 0 C 18 -14 42 -12 56 2 C 40 18 14 16 0 0 Z" fill="none" stroke="#c8a664" stroke-width="1.6"/><path d="M0 0 L 56 2" stroke="#c8a664" stroke-width="1"/></g><g transform="translate(770 925) rotate(155) scale(1.1)" opacity="0.55"><path d="M0 0 C 18 -14 42 -12 56 2 C 40 18 14 16 0 0 Z" fill="none" stroke="#c8a664" stroke-width="1.6"/><path d="M0 0 L 56 2" stroke="#c8a664" stroke-width="1"/></g>
+  <text x="450" y="1035" text-anchor="middle" font-family="Georgia, serif" font-size="46" fill="#4a3f35" opacity="0.75">ท๊อป</text>
+</svg>
