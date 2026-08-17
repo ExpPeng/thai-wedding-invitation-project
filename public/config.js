@@ -47,9 +47,9 @@ window.WEDDING_CONFIG = {
 
   bank: {
     bankName: "กสิกรไทย",
-    accountName: "วิไลวรรณ บุญทั่ง",
-    accountNumber: "0666666666",
-    qrImage: "assets/images/bank-qr.svg",
+    accountName: "อานนท์ โภคสมบัติกุล",
+    accountNumber: "0663946595",
+    qrImage: "assets/images/bank-qr.jpg",
   },
 
   gallery: [
