@@ -92,7 +92,7 @@ h2.title {
   font-weight: 400;
 }
 .hero__amp { color: var(--gold); display: block; font-size: 0.6em; margin: 4px 0; }
-.hero__full { font-size: 14px; color: var(--brown-soft); margin: 10px 0 18px; }
+.hero__full { font-size: 14px; color: var(--brown-soft); margin: 10px 0 0px; }
 .hero__date {
   display: inline-block;
   border-top: 1px solid var(--gold-soft);

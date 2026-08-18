@@ -8,7 +8,7 @@ const text = (id, value) => { const el = $(id); if (el) el.textContent = value; 
 text("hero-msg", C.weddingMessage);
 text("hero-groom", C.couple.groomNick);
 text("hero-bride", C.couple.brideNick);
-text("hero-full", `${C.couple.groomName}  ·  ${C.couple.brideName}`);
+text("hero-full", `${C.couple.brideName}  ·  ${C.couple.groomName}`);
 text("hero-date", C.weddingDateText);
 $("hero-img").src = C.heroImage;
 
@@ -149,22 +149,59 @@ const timer = setInterval(tick, 1000);
 /* ---------- MUSIC ---------- */
 const audio = $("audio");
 const musicBtn = $("music-btn");
+
 function syncBtn() {
   const playing = !audio.paused;
   musicBtn.classList.toggle("playing", playing);
   musicBtn.setAttribute("aria-pressed", String(playing));
 }
-audio.play().then(syncBtn).catch(() => syncBtn());
-musicBtn.addEventListener("click", async () => {
+
+// พยายามเล่นทันทีเมื่อเปิดเว็บ
+audio.play().then(syncBtn).catch(() => {
+  syncBtn();
+});
+
+// ถ้า Autoplay ถูก Browser บล็อก
+// ให้การคลิกครั้งแรกที่ใดก็ได้บนหน้าเว็บเริ่มเพลง
+let musicStarted = false;
+
+async function startMusicOnFirstClick() {
+  if (musicStarted || !audio.paused) return;
+
+  try {
+    await audio.play();
+    musicStarted = true;
+    syncBtn();
+
+    // ไม่ต้องดัก click อีกหลังจากเพลงเริ่มแล้ว
+    document.removeEventListener("click", startMusicOnFirstClick);
+  } catch (error) {
+    console.log("Music could not start:", error);
+  }
+}
+
+document.addEventListener("click", startMusicOnFirstClick);
+
+// ปุ่มเพลงสำหรับเปิด/ปิดเพลงเอง
+musicBtn.addEventListener("click", async (e) => {
+  e.stopPropagation();
+
   if (audio.paused) {
-    try { await audio.play(); } catch (_) { /* ไฟล์เพลงอาจยังไม่ถูกใส่ */ }
+    try {
+      await audio.play();
+      musicStarted = true;
+    } catch (_) {}
   } else {
     audio.pause();
   }
+
   syncBtn();
 });
+
 audio.addEventListener("play", syncBtn);
 audio.addEventListener("pause", syncBtn);
+
+
 
 /* ---------- GUESTBOOK ---------- */
 const supabase = createClient(C.supabaseUrl, C.supabaseKey, {
